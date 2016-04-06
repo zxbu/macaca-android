@@ -16,5 +16,7 @@
 var Android = require('..');
 
 describe('test', function() {
-
+  it('should be ok', function() {
+    Android.should.be.ok;
+  });
 });

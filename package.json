@@ -5,7 +5,7 @@
   "keywords": [
     "android"
   ],
-  "main": "index.js",
+  "main": "./lib/macaca-android",
   "repository": {
     "type": "git",
     "url": "git://github.com/macacajs/macaca-android.git"

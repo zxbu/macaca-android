@@ -1,7 +1,7 @@
 {
   "name": "macaca-android",
-  "version": "1.0.8",
-  "description": "macaca android",
+  "version": "1.0.9",
+  "description": "Macaca Android driver",
   "keywords": [
     "android"
   ],
@@ -38,8 +38,5 @@
     "jshint"
   ],
   "homepage": "https://github.com/macacajs/macaca-android",
-  "author": "macacajs",
-  "email": "macacajs@126.com",
-  "blog": "http://xdf.me",
   "license": "MIT"
 }

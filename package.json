@@ -1,6 +1,6 @@
 {
   "name": "macaca-android",
-  "version": "1.1.34",
+  "version": "2.0.0",
   "description": "Macaca Android driver",
   "keywords": [
     "android"
@@ -11,15 +11,15 @@
     "url": "git://github.com/macacajs/macaca-android.git"
   },
   "dependencies": {
-    "android-unicode": "1.0.11",
+    "android-unicode": "~1.1.0",
     "driver-base": "~0.1.0",
     "java-util": "~0.1.0",
     "macaca-adb": "~1.0.3",
     "macaca-chromedriver": "~1.0.1",
     "macaca-utils": "~0.1.6",
     "temp": "~0.8.3",
-    "uiautomator-client": "1.1.9",
-    "unlock-apk": "~0.1.11",
+    "uiautomatorwd": "~1.0.0",
+    "unlock-apk": "~1.0.3",
     "webdriver-dfn-error-code": "~1.0.1",
     "xlogger": "~1.0.0"
   },

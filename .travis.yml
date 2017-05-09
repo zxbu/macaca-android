@@ -1,21 +1,27 @@
 language: android
-sudo: false
+sudo: required
+os:
+  - linux
 jdk:
-  - openjdk7
-  - oraclejdk7
+  - oraclejdk8
 android:
   components:
-    - build-tools-22.0.1
-    - android-23
+    - tools
+    - build-tools-25.0.2
+    - platform-tools
     - extra-android-m2repository
-    - extra-android-support
-env:
-  - JAVA_HOME=/usr/lib/jvm/java-7-oracle
-  - ANDROID_HOME=/usr/local/android-sdk
+    - extra-google-android-support
+    - android-25
 before_script:
+    - wget http://services.gradle.org/distributions/gradle-3.3-all.zip
+    - unzip gradle-3.3-all.zip
+    - export GRADLE_HOME=$PWD/gradle-3.3
+    - export PATH=$GRADLE_HOME/bin:$PATH
     - . $HOME/.nvm/nvm.sh
-    - nvm install 4
-    - nvm use 4
+    - nvm install 6
+    - nvm use 6
     - npm install
-script: "make travis"
-after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+script:
+  - make travis
+after_script:
+  - npm install coveralls@2 && cat ./coverage/lcov.info | coveralls

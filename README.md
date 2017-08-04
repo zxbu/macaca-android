@@ -18,6 +18,11 @@
 
 ## Installment
 
-```bash
+``` bash
 $ npm i macaca-android --save
+```
+To use a mirror of the Maven center.
+
+```
+$ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i macaca-android -g
 ```

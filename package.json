@@ -1,6 +1,6 @@
 {
   "name": "macaca-android",
-  "version": "2.0.31",
+  "version": "2.0.32",
   "description": "Macaca Android driver",
   "keywords": [
     "android",
@@ -15,7 +15,7 @@
     "driver-base": "~0.1.0",
     "macaca-adb": "~1.0.3",
     "macaca-chromedriver": "~1.0.1",
-    "macaca-utils": "~0.1.6",
+    "macaca-utils": "^1.0.0",
     "temp": "~0.8.3",
     "uiautomatorwd": "~1.0.41",
     "unlock-apk": "~1.0.3",
@@ -28,7 +28,7 @@
     "istanbul": "^0.4.5",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
+    "pre-commit": "*",
     "should": "*"
   },
   "scripts": {

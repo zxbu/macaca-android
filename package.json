@@ -1,6 +1,6 @@
 {
   "name": "macaca-android",
-  "version": "2.0.38",
+  "version": "2.0.39",
   "description": "Macaca Android driver",
   "keywords": [
     "android",
@@ -17,7 +17,7 @@
     "macaca-chromedriver": "~1.0.1",
     "macaca-utils": "^1.0.0",
     "temp": "~0.8.3",
-    "uiautomatorwd": "~1.0.44",
+    "uiautomatorwd": "~1.0.45",
     "unlock-apk": "~1.0.3",
     "webdriver-dfn-error-code": "~1.0.1",
     "xlogger": "~1.0.0",

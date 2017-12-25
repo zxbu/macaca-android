@@ -34,3 +34,7 @@ $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i ma
 ## Custom ChromeDriver Version
 
 [link](//github.com/macacajs/macaca-chromedriver#custom-version)
+
+## License
+
+The MIT License (MIT)
